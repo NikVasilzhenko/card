@@ -1,0 +1,103 @@
+/*baisic*/
+html{font-size: 10px;}
+html, body{
+    min-height: 100%;
+    width: 100%;
+}
+body{
+    font: 2.4rem/1.2 'IBM Plex Sans', sans-serif;
+    color: #1F263A;
+    font-weight: 400;
+    min-width: 310px; 
+    min-height: 100%;
+    position: relative;
+	overflow-x: hidden;
+    font-stretch: condensed;
+    opacity: 1;	
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+ 	transition: background-color 1s ease; 
+}
+
+/*clearfix*/
+.clearfix:before,
+.clearfix:after{
+    content: " ";
+    display: table;
+}
+.clearfix:after {clear: both;}
+.clearfix{
+	zoom: 1;
+}
+
+/*box-sizing*/
+*, *:before, *:after, input[type="search"]{
+    box-sizing: border-box;
+}
+
+/*browserhappy*/
+.browserhappy{
+    background: red;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    font-size: 20px;
+    color: #fff;
+    strong{text-transform: uppercase;}
+    a{
+        color: yellow;
+        text-decoration: underline;
+        &:hover{text-decoration: none;}
+    }
+}
+
+/*typographyc-reset*/
+ol,ul,li{    
+    margin:0;
+    padding: 0;    
+}
+ul li{list-style: none;}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/*link reset*/
+a{
+    text-decoration: none;
+    outline: none;
+    transition: .25s ease;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    &:-moz-any-link:focus ,
+    &:-moz-focusring,
+    &::-moz-focus-inner,
+    &::-moz-focus-outer{
+        outline: 0!important;
+        outline: none;
+    }
+    &:active {
+        outline: none;
+    }
+}
+
+/*img reset*/
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*layout*/
+.container{
+	width: 100%;
+	max-width: 144rem;
+	padding: 0 13.5rem;
+	margin: 0 auto;
+	position: relative;
+	z-index: 3;
+}

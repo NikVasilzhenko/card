@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypterium Digital Asset Card Pre-Order</title>    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Receive your physical card and pay with digital assets with the same easy as cash. Be among the first users of latest financial innovations - don't deny yourself that freedom.">
+    <meta name="keywords" content="Crypterium Digital Asset Card Pre-Order" />
+    <link rel="image_src" href="img/og/og.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://preorder.crypterium.com/" />    
+    <meta property="og:image" content="http://preorder.crypterium.com/img/og/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="512">    
+    <meta property="og:title" content="Crypterium Digital Asset Card Pre-Order" />
+    <meta property="og:description" content="Receive your physical card and pay with digital assets with the same easy as cash. Be among the first users of latest financial innovations - don't deny yourself that freedom." />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="special.crypterium.com" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="special.crypterium.com"/>
+    <meta name="twitter:title" content="Crypterium Digital Asset Card Pre-Order">
+    <meta name="twitter:description" content="Receive your physical card and pay with digital assets with the same easy as cash. Be among the first users of latest financial innovations - don't deny yourself that freedom."/>
+    <meta name="twitter:creator" content="crypterium.com"/>
+    <meta name="twitter:image:src" content="http://preorder.crypterium.com/history-of-money/img/og/twitter.jpg"/>
+    <meta name="twitter:domain" content="http://preorder.crypterium.com/"/>
+</head>
+
+<body>
+  	<style>
+		.preloader{
+			position: fixed;
+			z-index: 999;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #1F263A;
+   			-webkit-transition: .9s ease;
+			-o-transition: .9s ease;
+			transition: .9s ease;   
+		}
+		.preloader__center{
+			 position: absolute;
+			 top: 50%;
+			 left: 50%;
+			 -webkit-transform: translate(-50%, -50%);
+			 -ms-transform: translate(-50%, -50%);
+			 -o-transform: translate(-50%, -50%);
+			 transform: translate(-50%, -50%);
+      		 text-align: center;
+		}
+		.preloader__spiner{
+			width: 105px;
+			height: 105px;
+			position: relative;
+			margin-bottom: 16px;
+		}
+		.preloader__ring{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			-o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);			
+		}
+		.preloader__ring svg{
+			display: block;
+			width: 100%;
+			height: 100%;
+			-webkit-animation: spin 1s infinite linear;
+			-o-animation: spin 1s infinite linear;
+			animation: spin 1s infinite linear;
+		}
+		.preloader__ring:nth-child(1){
+			width: 125px;
+			height: 125px;
+		}
+		.preloader__ring:nth-child(2){
+			width: 110px;
+			height: 110px;
+		}
+		.preloader__ring:nth-child(3){
+			width: 95px;
+			height: 95px;
+		}
+		.preloader__ring:nth-child(even) svg{
+			animation-direction: reverse;
+		}
+		@-webkit-keyframes spin {
+			from { 
+				-webkit-transform: rotate(0);
+				transform: rotate(0); 
+			}
+			to { 
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg); 
+			}
+		}
+		@-o-keyframes spin {
+			from { 
+				-o-transform: rotate(0);
+				transform: rotate(0);}
+			to { 
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg)
+			}
+		}
+		@-moz-keyframes spin {
+			from { transform: rotate(0); }
+			to { transform: rotate(360deg); }
+		}
+		@keyframes spin {
+			from { 
+				-webkit-transform: rotate(0);
+				-ms-transform: rotate(0);
+				-o-transform: rotate(0);
+				transform: rotate(0); 
+			}
+			to { 
+				-webkit-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg); 
+			}
+		}
+		.preloader__txt{
+			font-weight: bold;
+			font-size: 26px;
+			text-align: center;
+			font-family: 'Arial', sans-serif;
+			color: #2992FA;
+		}
+		.preloader__txt span{
+			display: inline-block;
+			vertical-align: middle;
+			width: 44px;
+			white-space: nowrap;
+		}
+		.preloader__logo{
+			position: absolute;
+			top: 6rem;
+			left: 6rem;
+		}
+		.preloader__logo svg{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		.preloader.hide{
+			-webkit-transform: translateY(-110%);
+			-ms-transform: translateY(-110%);
+			-o-transform: translateY(-110%);
+			transform: translateY(-110%);
+		}
+		@media only screen and (max-width : 767px){
+			.preloader__logo {
+				position: absolute;
+				top: 4rem;
+				left: 50%;
+				width: 13.8rem;
+				height: 2.5rem;
+				margin-left: -6.9rem;
+			}
+		}
+	</style>
+   	<div class="preloader" id="js-preloader">
+   		<div class="preloader__logo">
+   				<svg width="221" height="41" viewBox="0 0 221 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M30.7507 7.51591C27.7133 5.05446 23.9655 3.69214 20.176 3.69214C15.9649 3.69214 11.9515 5.25313 8.89079 8.10935C5.83005 10.9656 3.98996 14.8358 3.74791 19.0105L3.72449 19.4491H5.65307L5.69731 19.0543C6.22826 11.5384 12.5918 5.66853 20.1734 5.66853C23.6089 5.66853 26.8024 6.78831 29.3973 8.94274L29.5534 9.07432L30.9276 7.71201L30.7507 7.51591Z" fill="white"/>
+					<path d="M28.822 26.2194C26.8049 28.9441 23.5672 30.5928 20.1759 30.5928C14.3017 30.5928 9.51274 25.8453 9.51274 20.0219C9.51274 14.2424 14.3017 9.51558 20.1759 9.51558C23.5906 9.51558 26.8257 11.1411 28.822 13.8889L28.9781 14.0876L30.3758 12.7021L30.2639 12.5473C27.8694 9.42528 24.1007 7.55725 20.1759 7.55725C13.2137 7.55725 7.53992 13.1407 7.53992 19.9961C7.53992 26.898 13.2163 32.5227 20.1759 32.5227C24.1007 32.5227 27.8694 30.6547 30.2639 27.5327L30.3758 27.3779L28.9781 25.9924L28.822 26.2194Z" fill="white"/>
+					<path d="M32.9889 9.82516C32.6791 9.45104 32.3668 9.05627 31.992 8.68215L31.8359 8.52734L30.4617 9.88966L30.6178 10.0445C30.9952 10.4186 31.3049 10.7927 31.5938 11.1643L31.75 11.3629L33.1242 10.0006L32.9889 9.82516Z" fill="white"/>
+					<path d="M29.4648 31.034L29.3087 31.1656C26.693 33.2968 23.5229 34.4398 20.0848 34.4398C12.5032 34.4398 6.13968 28.5493 5.60873 21.054L5.58531 20.5715H3.6333L3.65672 21.0772C3.9222 25.2519 5.74147 29.1221 8.79961 31.9784C11.8604 34.8139 15.8711 36.3956 20.0848 36.3956C23.942 36.3956 27.7106 35.0333 30.6595 32.5718L30.8364 32.417L29.4648 31.034Z" fill="white"/>
+					<path d="M31.7266 28.7247L31.5704 28.9234C31.2815 29.2975 30.9718 29.6716 30.5944 30.0432L30.4382 30.198L31.8124 31.5603L31.9686 31.4055C32.3668 31.0107 32.6791 30.6366 32.9654 30.2625L33.0982 30.1077L31.7266 28.7247Z" fill="white"/>
+					<path d="M34.1653 31.4958C30.774 35.6705 25.6754 38.0675 20.1759 38.0675C10.1322 38.0675 1.97543 29.9787 1.97543 20.0245C1.97543 10.0703 10.1322 1.97897 20.1759 1.97897C25.6077 1.97897 30.7063 4.37335 34.1653 8.5506L34.3215 8.74927L35.6957 7.38696L35.5629 7.23215C31.7474 2.61627 26.1152 0 20.1759 0C9.04429 0 0 8.96601 0 20.0013C0 31.0366 9.04429 40.0026 20.1759 40.0026C26.1386 40.0026 31.75 37.3863 35.5838 32.8375L35.7165 32.6827L34.3423 31.3204L34.1653 31.4958Z" fill="white"/>
+					<path d="M51.214 19.6271H51.4352V19.2737C51.4352 18.9666 51.4586 18.6364 51.4794 18.3293C51.5237 17.9991 51.5913 17.6688 51.6798 17.3618C51.7683 17.0547 51.8802 16.7683 52.013 16.482C52.1457 16.2188 52.3227 15.9762 52.5231 15.7776C52.7235 15.5789 52.9656 15.4267 53.2336 15.3157C53.4991 15.2048 53.8323 15.1403 54.1862 15.1403C54.5844 15.1403 54.941 15.2074 55.2065 15.3389C55.4954 15.4705 55.7374 15.646 55.9378 15.8653C56.1382 16.1078 56.2918 16.371 56.4245 16.678C56.5572 17.0083 56.6457 17.3386 56.69 17.7101L56.7134 17.9088H58.7981L58.7747 17.6662C58.7071 17.0289 58.5535 16.4561 58.3088 15.9298C58.0876 15.4034 57.7779 14.9416 57.3771 14.5675C56.9789 14.1727 56.513 13.8863 55.9795 13.6877C55.4485 13.4683 54.8265 13.3806 54.1628 13.3806C53.6084 13.3806 53.0775 13.4683 52.6324 13.6231C52.19 13.778 51.7683 13.9973 51.4118 14.2837C51.0578 14.5701 50.7455 14.9003 50.48 15.2719C50.2354 15.646 50.0141 16.0407 49.8371 16.482C49.681 16.9206 49.5483 17.3824 49.4598 17.8443C49.3713 18.3268 49.3478 18.8118 49.327 19.2943V19.6246L51.214 19.6271Z" fill="white"/>
+					<path d="M56.7122 22.5273L56.6888 22.7259C56.6445 23.1001 56.5561 23.451 56.4233 23.758C56.3114 24.065 56.1344 24.3282 55.9366 24.5501C55.7362 24.7694 55.4942 24.9449 55.2053 25.0558C54.9164 25.1874 54.5624 25.2313 54.1642 25.2313C53.7868 25.2313 53.4771 25.1642 53.2116 25.0558C52.9462 24.9449 52.7015 24.7694 52.5011 24.594C52.3007 24.3953 52.1237 24.1553 51.991 23.8896C51.8582 23.6264 51.7463 23.3194 51.6578 23.0098C51.5693 22.7027 51.5017 22.3725 51.4574 22.0422C51.4132 21.7119 51.4132 21.3817 51.4132 21.0746V20.7444H49.3076V21.0746C49.3076 21.5571 49.3519 22.0422 49.4404 22.5247C49.5288 23.0072 49.6616 23.469 49.8177 23.887C49.9947 24.3256 50.1951 24.723 50.4606 25.0971C50.7261 25.4712 51.0358 25.8015 51.3924 26.0853C51.7463 26.3717 52.168 26.591 52.613 26.7458C53.0789 26.9006 53.589 26.9883 54.1434 26.9883C54.7862 26.9883 55.3849 26.8774 55.9158 26.6813C56.4467 26.462 56.9126 26.1756 57.3134 25.8015C57.7116 25.4273 58.024 24.9655 58.266 24.4598C58.5107 23.9541 58.6642 23.3607 58.7527 22.7672L58.7761 22.5247L56.7122 22.5273Z" fill="white"/>
+					<path d="M70.1238 22.615H67.8179V26.9445H70.1238V22.615Z" fill="white"/>
+					<path d="M74.1137 21.1211C74.4026 20.9895 74.6681 20.8141 74.9335 20.6386C75.2432 20.4193 75.5087 20.1329 75.7534 19.8465C75.9746 19.5395 76.1516 19.2092 76.2843 18.8351C76.417 18.461 76.4847 18.0662 76.4847 17.625C76.4847 16.9439 76.352 16.3504 76.1073 15.8447C75.8627 15.339 75.5321 14.9004 75.1105 14.5701C74.6889 14.2399 74.2022 13.9767 73.6478 13.8219C73.0934 13.6671 72.4948 13.5794 71.8754 13.5587H67.8621V21.6036H72.1643L74.7149 26.8336H76.7996H77.0209L74.1137 21.1211ZM74.1813 18.5487C74.0486 18.8119 73.8716 19.0312 73.6504 19.2299C73.4292 19.4053 73.1637 19.5601 72.8748 19.6685C72.5651 19.7562 72.2528 19.8233 71.8988 19.8233H69.926V15.3416H71.8546C72.2319 15.3416 72.5651 15.4087 72.8748 15.4964C73.1845 15.5841 73.45 15.7389 73.6738 15.935C73.8951 16.1105 74.0512 16.353 74.184 16.6394C74.3167 16.9258 74.3609 17.2561 74.3609 17.6276C74.3583 17.9553 74.2933 18.2855 74.1813 18.5487Z" fill="white"/>
+					<path d="M92.1164 22.0448L96.351 13.5613H93.98L91.1847 19.6917L88.3712 13.5613H85.9976L90.2555 22.0448H92.1164Z" fill="white"/>
+					<path d="M90.1878 26.8361H92.1607L92.1841 23.1646H90.167L90.1878 26.8361Z" fill="white"/>
+					<path d="M133.796 13.4941H123.643V15.4293H133.796V13.4941Z" fill="white"/>
+					<path d="M127.632 26.8799H129.806V16.4613H127.632V26.8799Z" fill="white"/>
+					<path d="M162.818 22.726H160.733V26.8361H162.818V22.726Z" fill="white"/>
+					<path d="M167.01 21.1211C167.299 20.9895 167.564 20.8141 167.83 20.6386C168.14 20.4193 168.405 20.1329 168.65 19.8465C168.871 19.5395 169.048 19.2092 169.181 18.8351C169.313 18.461 169.381 18.0662 169.381 17.625C169.381 16.9439 169.248 16.3504 169.004 15.8447C168.759 15.339 168.429 14.9004 168.007 14.5701C167.585 14.2399 167.099 13.9767 166.544 13.8219C165.99 13.6671 165.391 13.5794 164.772 13.5587H160.758V21.6036H165.061L167.611 26.8336H169.696H169.917L167.01 21.1211ZM167.075 18.5487C166.942 18.8119 166.765 19.0312 166.544 19.2299C166.323 19.4053 166.057 19.5601 165.769 19.6685C165.459 19.7562 165.147 19.8233 164.793 19.8233H162.82V15.3416H164.748C165.126 15.3416 165.459 15.4087 165.769 15.4964C166.078 15.5841 166.344 15.7389 166.568 15.935C166.789 16.1105 166.945 16.353 167.078 16.6394C167.21 16.9026 167.255 17.2561 167.255 17.6276C167.252 17.9785 167.187 18.2855 167.075 18.5487Z" fill="white"/>
+					<path d="M178.869 13.4941V15.4731H181.906V26.8799H184.144V13.4941H178.869Z" fill="white"/>
+					<path d="M202.215 13.5613H200.174L200.151 22.4628C200.127 22.8137 200.083 23.1672 199.974 23.4948C199.862 23.8251 199.708 24.1115 199.508 24.3747C199.307 24.6172 199.065 24.8133 198.777 24.9681C198.488 25.0997 198.155 25.1874 197.756 25.1874C197.379 25.1874 197.025 25.1203 196.736 24.9681C196.447 24.8133 196.205 24.6172 196.005 24.3747C195.804 24.1321 195.651 23.8251 195.539 23.5181C195.427 23.1878 195.383 22.8369 195.362 22.486V20.7702H193.301V22.4834C193.301 23.1001 193.412 23.6935 193.634 24.2637C193.855 24.8133 194.165 25.2958 194.542 25.7138C194.919 26.1318 195.406 26.4388 195.94 26.6813C196.471 26.9239 197.093 27.0322 197.735 27.0322C198.378 27.0322 198.977 26.9213 199.531 26.6813C200.062 26.4388 200.552 26.1111 200.929 25.7138C201.327 25.2958 201.639 24.8133 201.837 24.2637C202.059 23.7142 202.17 23.1207 202.191 22.5066L202.215 13.5613Z" fill="white"/>
+					<path d="M195.363 13.5613H193.369L193.346 19.6272H195.386L195.363 13.5613Z" fill="white"/>
+					<path d="M217.956 13.5613L215.848 19.5163L213.875 13.5613H211.459V26.8361H213.521V21.4952L213.409 17.8237L215.184 23.2523H216.446L218.419 17.5605L218.375 19.6272H220.371V13.5613H217.956Z" fill="white"/>
+					<path d="M218.331 21.4953V26.8362H220.371V20.7703H218.354L218.331 21.4953Z" fill="white"/>
+					<path d="M114.132 15.8912C113.888 15.3854 113.557 14.9675 113.156 14.6166C112.735 14.2863 112.269 14.0231 111.715 13.8477C111.184 13.6722 110.606 13.5845 110.007 13.5613H105.596V18.7912H107.68V15.3416H110.007C110.361 15.3416 110.694 15.4087 110.983 15.517C111.272 15.628 111.538 15.7802 111.738 15.9789C111.959 16.1775 112.115 16.4175 112.225 16.7039C112.357 16.9903 112.402 17.3206 112.402 17.6715C112.402 18.0224 112.334 18.3526 112.225 18.6158C112.113 18.879 111.936 19.1215 111.738 19.2969C111.517 19.4956 111.272 19.6478 110.983 19.7356C110.694 19.8465 110.361 19.8904 110.007 19.8904H105.596V26.8129H107.68V21.6707H110.007C110.606 21.6707 111.181 21.583 111.715 21.3843C112.269 21.2088 112.735 20.9457 113.156 20.5922C113.578 20.2413 113.911 19.8233 114.132 19.3382C114.377 18.8325 114.51 18.2623 114.51 17.6018C114.486 16.9903 114.375 16.3969 114.132 15.8912Z" fill="white"/>
+					<path d="M150.625 20.9018V19.0776H145.214V15.3854H151.444V13.5613H143.131V20.9018H144.992H150.625Z" fill="white"/>
+					<path d="M145.214 25.012V22.0216H143.131V26.8362H151.509V25.012H145.214Z" fill="white"/>
+				</svg>
+   		</div>
+   		<div class="preloader__center">   			
+   			<div class="preloader__spiner">
+   				<div class="preloader__ring">
+   					<svg version="1.1" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+						<path d="M161.7,65.6C161.7,65.7,161.7,65.7,161.7,65.6c18.8,34.1,6.4,77.1-27.6,95.9c-34,18.8-77,6.3-95.8-27.7
+						c-18.8-34-6.3-77,27.7-95.8l-4.3-7.9c-38.4,21.2-52.4,69.6-31.2,108c21.2,38.4,69.6,52.4,108,31.2s52.4-69.6,31.2-108
+						c0,0,0-0.1-0.1-0.1L161.7,65.6z" fill="#2992FA"/>
+					</svg>
+   				</div>
+   				<div class="preloader__ring">
+   					<svg x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+						<path d="M103.8,46.9c0,0,0.1,0,0.1,0c29.1,2.1,51.1,27.6,49,56.7c-2.1,29.1-27.6,51.1-56.7,49
+						C67,150.5,45,125,47.1,95.9l-9-0.7c-2.5,34.1,23.2,63.9,57.3,66.4c34.1,2.5,63.9-23.2,66.4-57.3c2.5-34.1-23.2-63.9-57.3-66.4
+						c0,0-0.1,0-0.1,0L103.8,46.9z" fill="#2992FA"/>
+					</svg>
+   				</div>
+   				<div class="preloader__ring">
+   					<svg x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+						<path d="M135.5,99.6c0,0,0,0.1,0,0.1c0,19.6-15.9,35.5-35.5,35.5s-35.5-15.9-35.5-35.5c0-19.6,15.9-35.5,35.5-35.5v-9
+						c-24.5,0-44.5,20-44.5,44.5c0,24.5,20,44.5,44.5,44.5s44.5-20,44.5-44.5c0,0,0-0.1,0-0.1H135.5z" fill="#2992FA"/>
+					</svg>
+   				</div>
+   			</div>
+   			<div class="preloader__txt">
+   				<span id="js-persents">0</span>&#160;%
+   			</div>
+   		</div>
+   	</div>
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Your browser is <strong>out of date</strong>. Please <a href="https://browsehappy.com/"  target="_blank">update it</a>.
+        </p>
+    <![endif]-->
+    <noscript>
+		You need to enable JavaScript in your browser to display this page correctly.
+    </noscript>
+    <a href="https://crypterium.com/" class="crypterium-link" title="crypterium.com">
+		<img src="img/crypterium.svg" alt="">
+		<img src="img/crypterium-black.svg" alt="">
+	</a>
+    <nav class="nav">
+   		<ul>
+   			<li>
+   				<a href="#your-money-your-way" class="nav__item"></a>
+   			</li>
+   			<li>
+   				<a href="#there-are-no-limits" class="nav__item"></a>
+   			</li>
+   			<li>
+   				<a href="#join-the-future" class="nav__item"></a>
+   			</li>
+   		</ul>
+   	</nav>
+   	
+	<div class="rotate-blind">
+		<div class="rotate-blind__wrap">
+			<div class="rotate-blind__txt">
+				Rotate your device <br/>for a more comfortable site display
+			</div>
+			<div class="rotate-blind__pic"></div>
+		</div>
+	</div>
+	<div id="fullpage">
+    	<section class="vertical-scrolling slide slide-1" data-anchor="pre-order-crypterium-card">
+    		<div class="video">
+    			<img src="video/blind-mob.png" alt="" class="video__blind">
+				<video muted="" class="video__video" id="js-video" preload="auto" playsinline="" webkit-playinginline="" poster="video/blind.png">
+					<source src="video/video.mp4" type="video/mp4">
+					<source src="video/video.webm" type="video/webm">
+					<source src="video/video.ogv" type="video/ogg">
+				</video>
+  			</div>
+			<div class="container">
+				<div class="blc blc--slide-1">
+					<h1 class="blc-title blc-title__white">
+						<span>P</span><span>r</span><span>e</span><span>&#160;</span><span>o</span><span>r</span><span>d</span><span>e</span><span>r</span> 
+						<div><span>C</span><span>r</span><span>y</span><span>p</span><span>t</span><span>e</span><span>r</span><span>i</span><span>u</span><span>m</span><span>&#160;</span><span>C</span><span>a</span><span>r</span><span>d</span></div>
+					</h1>
+					<p>Join the first lucky users, and start using crypto <br>in everyday life with the same ease as cash.</p>
+				</div>				
+			</div>
+     		<a href="#your-money-your-way" class="scroll-down scroll-down--white scroll-down--slide-1">Scroll down to Pre order</a>     		
+      	</section>
+      	<section class="vertical-scrolling slide slide-2" data-anchor="your-money-your-way">
+      		<div class="slide-2__bg">
+     			<div class="slide-2__pic">
+     				<div class="slide-2__img"></div>
+     			</div>
+     			<div class="slide-2__squer"></div>
+     			<div class="slide-2__sector">
+     				<div class="slide-2__sector-pic"></div>
+     			</div>
+     		</div>
+			<div class="container">
+				<div class="blc blc--slide-2">
+					<h1 class="blc-title blc-title__white">
+						<span>Y</span><span>o</span><span>u</span><span>r</span><span>&#160;</span><span>m</span><span>o</span><span>n</span><span>e</span><span>y</span><span>&#160;</span><span>-</span> 
+						<div><span>y</span><span>o</span><span>u</span><span>r</span><span>&#160;</span><span>w</span><span>a</span><span>y</span></div>
+					</h1>
+					<p>Load your Card with any currencies you want to<br>pay with, we will take care of the rest.</p>
+					<p><b>No exchange hassle, we’ve made it simple</b></p>
+					<a href="#there-are-no-limits" class="scroll-down scroll-down--white scroll-down--slide-2">Scroll down</a>
+				</div>				
+			</div>     		
+      	</section>
+      	<section class="vertical-scrolling slide slide-3" data-anchor="there-are-no-limits">
+      		<div class="slide-3__bg">
+     			<div class="slide-3__colors">
+     				<div class="slide-3__yello"></div>
+     				<div class="slide-3__black"></div>
+     				<div class="slide-3__white"></div>
+     				<div class="slide-3__sector">
+						<div class="slide-3__sector-group">
+							<div class="slide-3__sector-pic"></div>
+						</div>
+     				</div>
+     			</div>
+     			<div class="slide-3__pic">
+     				<div class="slide-3__img"></div>
+     			</div>
+     		</div>
+			<div class="container">
+				<div class="blc blc--slide-3">
+					<h1 class="blc-title blc-title__dark">
+						<span>T</span><span>h</span><span>e</span><span>r</span><span>e</span><span>&#160;</span><span>a</span><span>r</span><span>e</span>
+						<div><span>n</span><span>o</span><span>&#160;</span><span>l</span><span>i</span><span>m</span><span>i</span><span>t</span><span>s</span></div>
+					</h1>
+					<p>Buy your morning coffee with Bitcoin, and <br>shop online with Ether, use ATMs, pay on <br>e-commerce platforms…</p>
+					<p><b>Pay online and offline, around the world</b></p>
+					<a href="#join-the-future" class="scroll-down scroll-down--dark scroll-down--slide-2">Scroll down</a>
+				</div>				
+			</div>     		
+      	</section>
+      	<section class="vertical-scrolling slide slide-4" data-anchor="join-the-future">
+      		<div class="slide-4__bg">
+     			<div class="slide-4__pic">
+     				<div class="slide-4__img"></div>
+     			</div>
+     			<div class="slide-4__blue">
+     				<div class="slide-4__sector">
+						<div class="slide-4__sector-pic"></div>
+					</div>
+     			</div>
+     		</div>
+			<div class="container">
+				<div class="blc blc--slide-4">
+					<h1 class="blc-title blc-title__dark">
+						<span>J</span><span>o</span><span>i</span><span>n</span><span>&#160;</span><span>t</span><span>h</span><span>e</span><div class="blue"><span>&#160;</span><span>f</span><span>u</span><span>t</span><span>u</span><span>r</span><span>e</span></div>
+					</h1>
+					<p>Make a space in your wallet for your <br>Сrypterium Сard. You won’t go back to <br>conservative ways of paying.</p>
+					<button class="btn btn-dark" id="js-order-btn">Pre-order card</button>
+				</div>				
+			</div>     		
+      	</section>
+    </div>
+    <div class="up" id="js-up">
+    	<div class="up-left">
+    		<div class="up-left__img"></div>
+    		<div class="up-left__img"></div>
+    	</div>
+    	<div class="up-main js-up-form">
+    		<a href="https://crypterium.com/" class="crypterium-link" title="crypterium.com">
+				<img src="img/crypterium-black.svg" alt="">
+			</a>
+    		<div class="up-main__container">
+    			<h2 class="up-main__title">Fill the form for <span>Crypterium Card</span></h2>
+    			<form action="#" method="post" class="up-main__form js-form-val">
+    				<label class="label js-label"><input type="text" name="full-name" class="input js-val" placeholder="Full name"></label>
+    				<label class="label js-label"><input type="email" name="email" class="input js-val" placeholder="Email"></label>
+    				<label class="label js-label">
+    					<select class="form-select js-val" name="country" data-placeholder="Country">
+							<option></option>
+							<option value="AX">AALAND ISLANDS</option>
+							<option value="AF">AFGHANISTAN</option>
+							<option value="AL">ALBANIA</option>
+							<option value="DZ">ALGERIA</option>
+							<option value="AS">AMERICAN SAMOA</option>
+							<option value="AD">ANDORRA</option>
+							<option value="AO">ANGOLA</option>
+							<option value="AI">ANGUILLA</option>
+							<option value="AQ">ANTARCTICA</option>
+							<option value="AG">ANTIGUA AND BARBUDA</option>
+							<option value="AR">ARGENTINA</option>
+							<option value="AM">ARMENIA</option>
+							<option value="AW">ARUBA</option>
+							<option value="AU">AUSTRALIA</option>
+							<option value="AT">AUSTRIA</option>
+							<option value="AZ">AZERBAIJAN</option>
+							<option value="BS">BAHAMAS</option>
+							<option value="BH">BAHRAIN</option>
+							<option value="BD">BANGLADESH</option>
+							<option value="BB">BARBADOS</option>
+							<option value="BY">BELARUS</option>
+							<option value="BE">BELGIUM</option>
+							<option value="BZ">BELIZE</option>
+							<option value="BJ">BENIN</option>
+							<option value="BM">BERMUDA</option>
+							<option value="BT">BHUTAN</option>
+							<option value="BO">BOLIVIA</option>
+							<option value="BA">BOSNIA AND HERZEGOWINA</option>
+							<option value="BW">BOTSWANA</option>
+							<option value="BV">BOUVET ISLAND</option>
+							<option value="BR">BRAZIL</option>
+							<option value="IO">BRITISH INDIAN OCEAN TERRITORY</option>
+							<option value="BN">BRUNEI DARUSSALAM</option>
+							<option value="BG">BULGARIA</option>
+							<option value="BF">BURKINA FASO</option>
+							<option value="BI">BURUNDI</option>
+							<option value="KH">CAMBODIA</option>
+							<option value="CM">CAMEROON</option>
+							<option value="CA">CANADA</option>
+							<option value="CV">CAPE VERDE</option>
+							<option value="KY">CAYMAN ISLANDS</option>
+							<option value="CF">CENTRAL AFRICAN REPUBLIC</option>
+							<option value="TD">CHAD</option>
+							<option value="CL">CHILE</option>
+							<option value="CN">CHINA</option>
+							<option value="CX">CHRISTMAS ISLAND</option>
+							<option value="CO">COLOMBIA</option>
+							<option value="KM">COMOROS</option>
+							<option value="CK">COOK ISLANDS</option>
+							<option value="CR">COSTA RICA</option>
+							<option value="CI">COTE D'IVOIRE</option>
+							<option value="CU">CUBA</option>
+							<option value="CY">CYPRUS</option>
+							<option value="CZ">CZECH REPUBLIC</option>
+							<option value="DK">DENMARK</option>
+							<option value="DJ">DJIBOUTI</option>
+							<option value="DM">DOMINICA</option>
+							<option value="DO">DOMINICAN REPUBLIC</option>
+							<option value="EC">ECUADOR</option>
+							<option value="EG">EGYPT</option>
+							<option value="SV">EL SALVADOR</option>
+							<option value="GQ">EQUATORIAL GUINEA</option>
+							<option value="ER">ERITREA</option>
+							<option value="EE">ESTONIA</option>
+							<option value="ET">ETHIOPIA</option>
+							<option value="FO">FAROE ISLANDS</option>
+							<option value="FJ">FIJI</option>
+							<option value="FI">FINLAND</option>
+							<option value="FR">FRANCE</option>
+							<option value="GF">FRENCH GUIANA</option>
+							<option value="PF">FRENCH POLYNESIA</option>
+							<option value="TF">FRENCH SOUTHERN TERRITORIES</option>
+							<option value="GA">GABON</option>
+							<option value="GM">GAMBIA</option>
+							<option value="GE">GEORGIA</option>
+							<option value="DE">GERMANY</option>
+							<option value="GH">GHANA</option>
+							<option value="GI">GIBRALTAR</option>
+							<option value="GR">GREECE</option>
+							<option value="GL">GREENLAND</option>
+							<option value="GD">GRENADA</option>
+							<option value="GP">GUADELOUPE</option>
+							<option value="GU">GUAM</option>
+							<option value="GT">GUATEMALA</option>
+							<option value="GN">GUINEA</option>
+							<option value="GW">GUINEA-BISSAU</option>
+							<option value="GY">GUYANA</option>
+							<option value="HT">HAITI</option>
+							<option value="HM">HEARD AND MC DONALD ISLANDS</option>
+							<option value="HN">HONDURAS</option>
+							<option value="HK">HONG KONG</option>
+							<option value="HU">HUNGARY</option>
+							<option value="IS">ICELAND</option>
+							<option value="IN">INDIA</option>
+							<option value="ID">INDONESIA</option>
+							<option value="IQ">IRAQ</option>
+							<option value="IE">IRELAND</option>
+							<option value="IL">ISRAEL</option>
+							<option value="IT">ITALY</option>
+							<option value="JM">JAMAICA</option>
+							<option value="JP">JAPAN</option>
+							<option value="JO">JORDAN</option>
+							<option value="KZ">KAZAKHSTAN</option>
+							<option value="KE">KENYA</option>
+							<option value="KI">KIRIBATI</option>
+							<option value="KW">KUWAIT</option>
+							<option value="KG">KYRGYZSTAN</option>
+							<option value="LA">LAO PEOPLE'S DEMOCRATIC REPUBLIC</option>
+							<option value="LV">LATVIA</option>
+							<option value="LB">LEBANON</option>
+							<option value="LS">LESOTHO</option>
+							<option value="LR">LIBERIA</option>
+							<option value="LY">LIBYAN ARAB JAMAHIRIYA</option>
+							<option value="LI">LIECHTENSTEIN</option>
+							<option value="LT">LITHUANIA</option>
+							<option value="LU">LUXEMBOURG</option>
+							<option value="MO">MACAU</option>
+							<option value="MG">MADAGASCAR</option>
+							<option value="MW">MALAWI</option>
+							<option value="MY">MALAYSIA</option>
+							<option value="MV">MALDIVES</option>
+							<option value="ML">MALI</option>
+							<option value="MT">MALTA</option>
+							<option value="MH">MARSHALL ISLANDS</option>
+							<option value="MQ">MARTINIQUE</option>
+							<option value="MR">MAURITANIA</option>
+							<option value="MU">MAURITIUS</option>
+							<option value="YT">MAYOTTE</option>
+							<option value="MX">MEXICO</option>
+							<option value="MC">MONACO</option>
+							<option value="MN">MONGOLIA</option>
+							<option value="MS">MONTSERRAT</option>
+							<option value="MA">MOROCCO</option>
+							<option value="MZ">MOZAMBIQUE</option>
+							<option value="MM">MYANMAR</option>
+							<option value="NA">NAMIBIA</option>
+							<option value="NR">NAURU</option>
+							<option value="NP">NEPAL</option>
+							<option value="NL">NETHERLANDS</option>
+							<option value="AN">NETHERLANDS ANTILLES</option>
+							<option value="NC">NEW CALEDONIA</option>
+							<option value="NZ">NEW ZEALAND</option>
+							<option value="NI">NICARAGUA</option>
+							<option value="NE">NIGER</option>
+							<option value="NG">NIGERIA</option>
+							<option value="NU">NIUE</option>
+							<option value="NF">NORFOLK ISLAND</option>
+							<option value="MP">NORTHERN MARIANA ISLANDS</option>
+							<option value="NO">NORWAY</option>
+							<option value="OM">OMAN</option>
+							<option value="PK">PAKISTAN</option>
+							<option value="PW">PALAU</option>
+							<option value="PA">PANAMA</option>
+							<option value="PG">PAPUA NEW GUINEA</option>
+							<option value="PY">PARAGUAY</option>
+							<option value="PE">PERU</option>
+							<option value="PH">PHILIPPINES</option>
+							<option value="PN">PITCAIRN</option>
+							<option value="PL">POLAND</option>
+							<option value="PT">PORTUGAL</option>
+							<option value="PR">PUERTO RICO</option>
+							<option value="QA">QATAR</option>
+							<option value="RE">REUNION</option>
+							<option value="RO">ROMANIA</option>
+							<option value="RU">RUSSIAN FEDERATION</option>
+							<option value="RW">RWANDA</option>
+							<option value="SH">SAINT HELENA</option>
+							<option value="KN">SAINT KITTS AND NEVIS</option>
+							<option value="LC">SAINT LUCIA</option>
+							<option value="PM">SAINT PIERRE AND MIQUELON</option>
+							<option value="VC">SAINT VINCENT AND THE GRENADINES</option>
+							<option value="WS">SAMOA</option>
+							<option value="SM">SAN MARINO</option>
+							<option value="ST">SAO TOME AND PRINCIPE</option>
+							<option value="SA">SAUDI ARABIA</option>
+							<option value="SN">SENEGAL</option>
+							<option value="CS">SERBIA AND MONTENEGRO</option>
+							<option value="SC">SEYCHELLES</option>
+							<option value="SL">SIERRA LEONE</option>
+							<option value="SG">SINGAPORE</option>
+							<option value="SK">SLOVAKIA</option>
+							<option value="SI">SLOVENIA</option>
+							<option value="SB">SOLOMON ISLANDS</option>
+							<option value="SO">SOMALIA</option>
+							<option value="ZA">SOUTH AFRICA</option>
+							<option value="GS">SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</option>
+							<option value="ES">SPAIN</option>
+							<option value="LK">SRI LANKA</option>
+							<option value="SD">SUDAN</option>
+							<option value="SR">SURINAME</option>
+							<option value="SJ">SVALBARD AND JAN MAYEN ISLANDS</option>
+							<option value="SZ">SWAZILAND</option>
+							<option value="SE">SWEDEN</option>
+							<option value="CH">SWITZERLAND</option>
+							<option value="SY">SYRIAN ARAB REPUBLIC</option>
+							<option value="TW">TAIWAN</option>
+							<option value="TJ">TAJIKISTAN</option>
+							<option value="TH">THAILAND</option>
+							<option value="TL">TIMOR-LESTE</option>
+							<option value="TG">TOGO</option>
+							<option value="TK">TOKELAU</option>
+							<option value="TO">TONGA</option>
+							<option value="TT">TRINIDAD AND TOBAGO</option>
+							<option value="TN">TUNISIA</option>
+							<option value="TR">TURKEY</option>
+							<option value="TM">TURKMENISTAN</option>
+							<option value="TC">TURKS AND CAICOS ISLANDS</option>
+							<option value="TV">TUVALU</option>
+							<option value="UG">UGANDA</option>
+							<option value="UA">UKRAINE</option>
+							<option value="AE">UNITED ARAB EMIRATES</option>
+							<option value="GB">UNITED KINGDOM</option>
+							<option value="US">UNITED STATES</option>
+							<option value="UM">UNITED STATES MINOR OUTLYING ISLANDS</option>
+							<option value="UY">URUGUAY</option>
+							<option value="UZ">UZBEKISTAN</option>
+							<option value="VU">VANUATU</option>
+							<option value="VE">VENEZUELA</option>
+							<option value="VN">VIET NAM</option>
+							<option value="WF">WALLIS AND FUTUNA ISLANDS</option>
+							<option value="EH">WESTERN SAHARA</option>
+							<option value="YE">YEMEN</option>
+							<option value="ZM">ZAMBIA</option>
+							<option value="ZW">ZIMBABWE</option>
+						</select>
+					</label>
+    				<label class="label js-label">
+    					<input type="tel" name="tel" class="input js-val" placeholder="Phone">
+    				</label>
+    				<div class="up-main__message" id="js-message"></div>
+    				<button class="btn up-main__submit" type="submit">Submit</button>
+    			</form>
+    		</div>
+    	</div>
+    	<div class="up-main js-up-submit">
+    		<a href="https://crypterium.com/" class="crypterium-link" title="crypterium.com">
+				<img src="img/crypterium-black.svg" alt="">
+			</a>
+    		<div class="up-main__container">
+    			<div class="up-main__sup">CONGRATULATIONS</div>
+    			<div class="up-main__hash">You’re <span>#100</span></div>
+    			<div class="up-main__txt">Get the app to track your order and stay on <br>top of the news!</div>
+    			<img src="img/order/mob.svg" alt="" class="up-main__pic">
+    			<a href="https://play.google.com/store/apps/details?id=com.crypterium" class="btn download-btn download-btn--other" target="_blank">Download the App</a>
+    			<a href="https://itunes.apple.com/US/app/id1360632912?mt=8%29" class="btn download-btn download-btn--ios" target="_blank">Download the App</a>
+    		</div>
+    		
+    		<div class="up-main__soc">
+    			<div class="up-main__soc-title">Follow us on Social media </div>
+    			<ul>
+    				<li><a href="https://www.facebook.com/crypterium.org/" target="_blank" title="Facebook"><img src="img/soc/facebook.svg" alt="Facebook" style="width: 1.5rem;"></a></li>
+    				<li><a href="https://twitter.com/crypterium" target="_blank" title="Twitter"><img src="img/soc/twitter.svg" alt="Twitter" style="width: 3rem;"></a></li>
+    				<li><a href="https://www.youtube.com/c/CrypteriumTV" target="_blank" title="YouTube"><img src="img/soc/youtube.svg" alt="YouTube" style="width: 3.4rem;"></a></li>
+    				<li><a href="https://www.reddit.com/r/crypterium_com/" target="_blank" title="Reddit"><img src="img/soc/reddit.svg" alt="Reddit" style="width: 3.4rem;"></a></li>
+    				<li><a href="https://t.me/crypterium" target="_blank" title="Telegram"><img src="img/soc/telegram.svg" alt="Telegram" style="width: 3.2rem;"></a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+<!--
+    <div class="order" id="js-order">
+    	<div class="order__pic">
+    		<div class="order__pic-img order__pic-img-1"></div>
+    		<div class="order__pic-img order__pic-img-2"></div>
+    	</div>
+    	<div class="order__main">
+    		<div class="order__main-wrap">
+				<h1 class="blc-title blc-title__dark">
+					Fill the form for <br><div class="blue">Crypterium Card</div>
+				</h1>
+   				<form action="" method="post" class="order-form js-form-val">
+   					<input type="text" class="input js-val" name="full-name" placeholder="Full name">
+   					<input type="email" class="input js-val" name="email" placeholder="Email">
+   					<select name="country" class="js-val">
+   						
+   					</select>
+   				</form>
+    		</div>
+    	</div>
+    </div>
+-->
+	<!--jQuery-->
+	<script src="js/vendors/jquery.min.js"></script>
+	<!--fullPage-->
+	<script src="js/vendors/jquery.fullPage.min.js"></script>
+	<!--TimeLine-->
+	<script src="js/vendors/timeline.js"></script>
+	<!--Formstyler-->
+	<script src="js/vendors/jquery.formstyler.min.js"></script>
+	<!--Device-->
+	<script src="js/vendors/device.min.js"></script>
+	<!--my scripts-->
+	<script src="js/jquery.main.js"></script>
+</body>
+</html>
